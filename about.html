@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<link rel="icon" href="../altdigitaldesignslogo.png" type="image/png" sizes="16x16 32x32">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alt Digital Designs</title>
+<link rel="stylesheet" href="width.css">
+ <link rel="stylesheet" media="(max-width:450px)" href="width450px.css">
+ <link rel="stylesheet" media="(min-width:900px)" href="width600px.css">
+   <link rel="stylesheet" media="(min-width:901px)" href="width900px.css">
+   	<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</head>
+<html>
+<body style="background-color:#ff0080;" >
+
+  
+											<header>
+																				<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn"><img src="Menu_Button.png" style="width:8%;"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="altdigitaldesigns.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+	<a href="graphicdesign.html">Graphic Design</a>
+	<a href="portfolio.html">Portfolio</a>
+  </div>
+</div>
+				<nav>
+	<a href="altdigitaldesigns.html"><img src="digitaldesignlogo.jpg" class="logo2" align="left" height="50%"/></a>			
+			<ul>
+						
+						<li><a href="altdigitaldesigns.html" class="current">|Home|</a></li>
+						<li><a href="services.html">|Services|</a></li>
+						<li><a href="about.html">|About|</a></li>
+						<li><a href="contact.html">|Contact|</a></li>
+                        <li><a href="portfolio.html">|Portfolio|</a></li>
+						<li><a href="graphicdesign.html">|Graphic Design|</a></li>
+                </ul>
+				</nav>
+				
+			</header>
+			<div class="row4">
+<img src="aboutus_theo.jpg" width="50%" align="left"class=""/><img src="aboutus_pete.jpg" width="50%" align="right" style="position:relative";class=""/>
+
+</div>
+ 
+<div class="row6">
+<a href="contact.html"><img src="services.jpg" width="50%" class="anonymous"></a>
+<p class="aboutus" style="margin-left:2%;">Hello, we are Alt Digital Designs!
+We are a digital design studio who doesn't just specialize in web design,we work hands-on with our clients to convert
+their business to the digital world. Tactical SEO Techniques, Mobile Optimization, &amp; Social Media Networking, 
+are the strategies we use to create a unique and easily accessible space on the World Wide Web to expand our clients' business.</p>
+</div>
+
+<div class="row5">
+<footer>
+<a href="altdigitaldesigns.html"><img src="altdigitaldesignslogo.png" width="25%" class="logo"/></a>
+<p class="contact">Contact:</br><a href="tel:+17636397659">763-639-7659</a></br><a href="tel:+16462661904">646-266-1904</p></a>
+<p class="email" style="text-align:center;">Emails:</br><a href="mailto:peter.y@parsat.com" style="text-decoration:none; color:#ffcc00;">peter.y@parsat.com</a></br><a href="mailto:thee_ohh@yahoo.com" style="text-decoration:none; color:#ffcc00;">thee_ohh@yahoo.com</a></br>&copy Alt Digital Designs</p>
+</footer>
+</div>
+
+
+</body>
+
+</html>
